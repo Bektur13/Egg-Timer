@@ -121,7 +121,6 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJN-th-c5K" userLabel="Timer View">
-<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="568.5" width="374" height="245.5"/>
                                         <subviews>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="l6v-DK-wvc">
@@ -155,11 +154,8 @@
                         </constraints>
                     </view>
                     <connections>
-<<<<<<< HEAD
                         <outlet property="progressBar" destination="l6v-DK-wvc" id="zh9-TO-Gv0"/>
-=======
                         <outlet property="finalText" destination="XLm-5r-pSP" id="txO-yH-SDb"/>
->>>>>>> origin/main
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
