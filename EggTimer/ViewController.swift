@@ -10,10 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var progressBar: UIProgressView!
+<<<<<<< HEAD
+=======
+>>>>>>> origin/main
     let eggTimes = ["Soft": 3, "Medium": 4, "Hard": 7];
     
     @IBOutlet weak var textLabel: UILabel!;
+    
+    @IBOutlet weak var progressBar: UIProgressView!
     
     var secondsRemaining = 60;
     
@@ -22,9 +26,14 @@ class ViewController: UIViewController {
     @IBAction func hardnessSelected(_ sender: UIButton) {
         progressBar.progress = 1.0;
         
+<<<<<<< HEAD
         
         timer.invalidate();
         
+=======
+        timer.invalidate();
+        
+>>>>>>> origin/main
         let hardness = sender.currentTitle!;
         
         secondsRemaining = eggTimes[hardness]!;
